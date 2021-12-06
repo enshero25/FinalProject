@@ -1,0 +1,362 @@
+/* Entire Project */
+/* <!-- HTML -->
+<a href="#google"></a> use tag for css
+<div id="google"></div> */
+
+/*CSS*/
+html { 
+    scroll-behavior: smooth; 
+} 
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(4, 156, 228);
+    margin: 0px;
+}
+body{
+    background-color: rgb(243, 243, 242);
+    margin: 0; 
+}
+/* Header */
+/* index.html */
+.index {
+    background-image: url("images/refinery.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding: 50px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.logo a {
+    background-image: url("images/Knauf Insulation Logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 60px;
+    text-indent: -9999999px; /*semantically correct for screen readers */
+    width: 300px;
+}
+.menu {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    margin: 70px 0px 0px 50px;
+    text-transform: uppercase;
+}
+nav  ul {
+    margin: 0;
+    padding:0;
+    display: inline;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 70px;
+    text-decoration: none;
+}
+div .menu-options {
+    background-color: rgb(4, 156, 228);
+    display:inline;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+}
+div .menu-options li {
+    margin-right: 40px;
+    text-indent: 35px;
+}
+div .menu-options li:hover {
+    color:rgb(243, 243, 242);
+}
+a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {    
+    text-decoration: underline;
+}
+/* Header */
+/* learn_more.html */
+.more {
+    background-color: rgb(52, 52, 54);
+    text-transform: uppercase;
+    text-align: left;
+}
+.more .logo a {
+    background-image: url("images/Knauf Insulation Logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 60px;
+    position: relative;
+    text-indent: -9999999px; /*semantically correct for screen readers */
+    top: -40px;
+    width: 300px;
+}
+.more nav  ul {
+    margin: 0;
+    padding:0;
+    display: inline;
+    list-style-type: none;
+}
+.more nav li {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: .5em;
+}
+.options {
+    background-color: rgb(4, 156, 228);
+}
+.options a:hover {
+    color: rgb(243, 243, 242);
+}
+/* header .logo {
+    background-image: url("images/Knauf Insulation Logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 60px;
+    position: relative;
+    text-indent: -9999999px; /*semantically correct for screen readers *s
+    top: -30px;
+    width: 300px;
+} */
+/* Section  */
+/* learn_more.html */
+.media {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    gap: 50px;
+    padding: 20px;
+}
+.media h1 {
+    font-size: 40.8px;
+    font-weight: 800;
+}
+.media p {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 3em;
+}
+.footer a {
+    background-color: rgb(52, 52, 54);
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    padding: .5em;
+    color:rgb(243, 243, 242)
+}
+.footer a:hover {
+    text-decoration: underline;
+    font-size: larger;
+    box-shadow: rgb(52, 52, 54) 0 0 10px;
+} 
+div > img {   
+    border:1p solid white;
+    box-shadow: white 0 0 0 1em;
+    height: 400px;
+    width: 650px;
+}
+.media-gallery {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 5.5%;
+    margin-right: 5%;
+    text-align: center;
+    gap: 50px;
+    padding: 20px;
+}
+/* Footer */
+footer {
+    background:black;
+    color: rgb(243, 243, 242);
+    list-style-type: none;
+    font-size: 14px;
+    padding: 20px 20px;
+    text-align: center;
+}
+.socials {
+    /* display: grid; */
+    /* grid-template-columns: 2fr; */
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    text-align: center;
+    /* padding: 20px; */
+}
+.socials div {
+    display: inline-flex;
+    align-items: center ;
+}
+.socials a {
+    padding: 5px;
+}
+/* .socials {
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: 50% 50%;
+} */
+/* header */
+/* new_project.html */
+#pipe a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+#pipe a:active {
+    text-decoration: none;
+    color: inherit;
+}
+#pipe a:hover {    
+    text-decoration: underline;
+}
+#elbow a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+#elbow a:active {
+    text-decoration: none;
+    color: inherit;
+}
+#elbow a:hover {    
+    text-decoration: underline;
+}
+#pipe_foamglass a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+#pipe_foamglass a:active {
+    text-decoration: none;
+    color: inherit;
+}
+#pipe_foamglass a:hover {    
+    text-decoration: underline;
+}
+#pipe_silicate a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+#pipe_silicate a:active {
+    text-decoration: none;
+    color: inherit;
+}
+#pipe_silicate a:hover {    
+    text-decoration: underline;
+}
+#material {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40.8px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#procedure {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40.8px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* Section */
+/* new_project.html */ 
+.features {
+    background: white;
+    color:gray;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    height: 305px;
+}
+.features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+.features figure img {
+    border:1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0px 0px 10px;
+    height: 200px;
+    width: 200px;
+}
+.features figure img:hover {
+    box-shadow: rgb(141, 143, 144) 0px 0px 40px;
+}
+/* section procedures */
+.spacer {
+    height: 150px;
+}
+.pstraight {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+#steps {
+    height: 100%;
+    width: 100%;
+    top: 90px;
+}
+.paragraph {
+    line-height: 2em;
+}
+.pelbow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* section */
+/* shop */
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);/*usefule function*/
+    grid-template-rows: 300px;
+    gap: 3px;
+    margin-left: 3%;
+    text-align: center;
+    color:gray;
+}
+.tools img {
+    height: 200px;
+    width: 310px;
+    background-color: white;
+}
+#caption{
+    color: gray;
+}
+.tools img:hover {
+    box-shadow: rgb(141, 143, 144) 0px 0px 40px;
+}
+/* blog post */
+.post {
+    text-align: center;
+}
+#wide {
+    height: 400px;
+    width: 350px;
+}
+#long {
+    height: 400px;
+    width: 250px;
+}
+video {
+    height: 400px;
+    width: 250px;
+}
